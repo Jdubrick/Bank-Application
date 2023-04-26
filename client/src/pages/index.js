@@ -1,8 +1,8 @@
 import styles from "@/styles";
+import Head from "next/head";
 import {
   Billing,
   Business,
-  Button,
   CTA,
   CardDeal,
   Clients,
@@ -16,6 +16,10 @@ import {
 export default function Home() {
   return (
     <div className="bg-primary w-full overflow-hidden">
+      <Head>
+        <title>HooBank Financial</title>
+        <link rel="shortcut icon" href="/assets/logo.svg" />
+      </Head>
       <header className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />

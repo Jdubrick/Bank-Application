@@ -5,7 +5,7 @@ import { Button } from "../exports";
 const FeatureCard = ({ icon, title, content, index }) => {
   return (
     <div
-      className={`flex flex-row p-6 rounded-[20px] ${
+      className={`flex flex-row p-6 rounded-[20px] cursor-pointer ${
         index !== features.length - 1 ? "mb-6" : "mb-0"
       } feature-card`}
     >

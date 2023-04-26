@@ -16,7 +16,7 @@ function Navbar() {
           return (
             <li
               key={link.id}
-              className={`font-poppins font-normal cursor-pointer text-[16px] text-white ${
+              className={`font-poppins font-normal cursor-pointer text-[16px] text-white hover:text-secondary ${
                 index === navLinks.length - 1 ? "mr-0" : "mr-10"
               }`}
             >

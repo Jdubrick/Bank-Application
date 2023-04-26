@@ -2,7 +2,7 @@ import React from "react";
 
 function FeedbackCard({ content, name, title, img }) {
   return (
-    <div className="flex flex-col justify-between px-10 py-12 rounded-[20px] max-w-[370px] mr-0 sm:mr-5 md:mr-10 my-5 feedback-card">
+    <div className="flex flex-col justify-between px-10 py-12 rounded-[20px] max-w-[370px] mr-0 sm:mr-5 md:mr-10 my-5 feedback-card cursor-pointer">
       <img
         src="/assets/quotes.svg"
         alt="quotes image"
