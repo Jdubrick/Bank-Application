@@ -52,7 +52,7 @@ function Footer() {
         <div className="flex flex-row mt-6 md:mt-0">
           {socialMedia.map((social, index) => {
             return (
-              <a href={social.link} target="_blank">
+              <a href={social.link} target="_blank" key={index}>
                 <img
                   key={social.id}
                   src={social.icon}
